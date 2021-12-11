@@ -1,0 +1,8 @@
+{
+  "name": "vue-ionic-boilerplate",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "custom"
+}
