@@ -22,7 +22,9 @@ The project was created via [Vue CLI](https://github.com/vuejs/vue-cli), with th
 * Typescript with [class-style components](https://vuejs.org/v2/guide/typescript.html#Class-Style-Vue-Components) + TSLint
 * Ionic Framework v4 (https://ionicframework.com/)
 * Vue Router
-* Vuex (with Vuex-Simple https://github.com/sascha245/vuex-simple and Vuex-Class https://github.com/ktsn/vuex-class)
+* Vuex:
+* * Vuex-Simple https://github.com/sascha245/vuex-simple
+* * Vuex-Class https://github.com/ktsn/vuex-class
 * TSX with render function (https://github.com/wonderful-panda/vue-tsx-support)
 * Vue Property Decorator (https://github.com/kaorun343/vue-property-decorator)
 * CSS module (CSS in separate files)
