@@ -1,6 +1,6 @@
 # vue2-ionic4-tsx-classStyle-VuexSimple-PixiJS-boilerplate
 
-> A quick ready-to-start boilerplate project for building apps in Ionic 4 using VueJS (v2).
+> A quick and ready-to-start boilerplate project for building apps in Ionic 4 using VueJS (v2).
 
 ## Running the Project
 
