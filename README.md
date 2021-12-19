@@ -1,9 +1,6 @@
-# vue-ionic-boilerplate
+# vue2-ionic4-tsx-classStyle-VuexSimple-PixiJS-boilerplate
 
-> A quick boilerplate project for building apps in Ionic 4 using VueJS.
-
-
-The latest major release of the [Ionic Framework](https://ionicframework.com/) opened up the opportunity for using tools other than Angular for building hybrid mobile applications, including React, Vue and even Vanilla JS. The [Vue version](https://blog.ionicframework.com/announcing-the-ionic-vue-beta/) is still in beta though, and setting up a working project still requires some manual configuration. This boilerplate aims to make this process a bit easier, so you can just try out the framework itself.
+> A quick ready-to-start boilerplate project for building apps in Ionic 4 using VueJS (v2).
 
 ## Running the Project
 
@@ -12,9 +9,9 @@ The latest major release of the [Ionic Framework](https://ionicframework.com/) o
   ```
   npm run serve
   ```
-  * #### To run the app in an emulator/device:
+  * #### To compile for Android and open in Android Studio:
   ```
-  ionic cordova run <platform>
+  npm run andrid
   ```
   
   So far this setup has only been tested in Android.
@@ -23,9 +20,14 @@ The latest major release of the [Ionic Framework](https://ionicframework.com/) o
 The project was created via [Vue CLI](https://github.com/vuejs/vue-cli), with the following features enabled:
 
 * Typescript with [class-style components](https://vuejs.org/v2/guide/typescript.html#Class-Style-Vue-Components) + TSLint
+* Ionic Framework v4 (https://ionicframework.com/)
 * Vue Router
-* Vuex
-* Sass/SCSS
+* Vuex (with Vuex-Simple https://github.com/sascha245/vuex-simple and Vuex-Class https://github.com/ktsn/vuex-class)
+* TSX with render function (https://github.com/wonderful-panda/vue-tsx-support)
+* Vue Property Decorator (https://github.com/kaorun343/vue-property-decorator)
+* CSS module (CSS in separate files)
+* PixiJS v5 (https://pixijs.com/)
+* PixiJS Sound (https://pixijs.io/sound/docs/index.html)
 * Unit testing (Jest)
 
-Cordova is still used for the native bridge, as it makes for a simpler setup at the moment compared to Capacitor, the new bridge in development by the Ionic team.
+Feel free to make some improvements!
