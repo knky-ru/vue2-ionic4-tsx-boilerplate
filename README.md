@@ -11,7 +11,7 @@
   ```
   * #### To compile for Android and open in Android Studio:
   ```
-  npm run andrid
+  npm run android
   ```
   
   So far this setup has only been tested in Android.
