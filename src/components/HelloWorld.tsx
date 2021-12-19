@@ -10,19 +10,29 @@ interface Props {
 @Component
 export default class HelloWorld extends VueTsComponent<Props> {
 
-	@Prop()
+	@Prop({default: 'Default text'})
 	msg: Props['msg'];
 
 	render(): VNode {
 		return (
 			<div class={styles.hello}>
 				<ion-grid>
-					<ion-row class='ion-justify-content-center ion-align-items-center'>
-						<img alt='Vue logo' src={require('../assets/logo.png')} />
-							<h1>
-								{ this.msg }
-							</h1>
-					</ion-row>
+					<ion-column>
+						<div>
+							<img alt='Vue logo' src={require('../assets/logo.png')} />
+						</div>
+						<h1>
+							{ this.msg }
+						</h1>
+						<div>
+							<router-link to='/about'>
+								<ion-button color='primary'>About</ion-button>
+							</router-link>
+							<router-link to='/pixi'>
+								<ion-button color='secondary'>PixiJS</ion-button>
+							</router-link>
+						</div>
+					</ion-column>
 				</ion-grid>
 			</div>
 		);

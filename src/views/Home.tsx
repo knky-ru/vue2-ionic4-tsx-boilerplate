@@ -10,11 +10,7 @@ interface Props {
 	important?: boolean;
 }
 
-@Component({
-	components: {
-		HelloWorld,
-	},
-})
+@Component
 export default class Home extends VueTsComponent<Props> {
 
 	text = 'hello';
@@ -30,16 +26,13 @@ export default class Home extends VueTsComponent<Props> {
 			<div class='ion-page'>
 				<ion-header>
 					<ion-toolbar color='primary'>
-						<ion-buttons slot='start'>
-							<ion-back-button></ion-back-button>
-						</ion-buttons>
 						<ion-title color='light'>Home</ion-title>
 					</ion-toolbar>
 				</ion-header>
 
 				<ion-content padding>
-					<hello-world
-						msg={'Hello'}
+					<HelloWorld
+						msg={this.text}
 					/>
 				</ion-content>
 
