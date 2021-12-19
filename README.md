@@ -1,6 +1,7 @@
 # vue2-ionic4-tsx-classStyle-VuexSimple-PixiJS-boilerplate
 
 > A quick and ready-to-start boilerplate project for building apps in Ionic 4 using VueJS (v2).
+> Basically, I am using this boilerplate to create a mobile game.
 
 ## Running the Project
 
@@ -23,8 +24,8 @@ The project was created via [Vue CLI](https://github.com/vuejs/vue-cli), with th
 * Ionic Framework v4 (https://ionicframework.com/)
 * Vue Router
 * Vuex:
-  * Vuex-Simple https://github.com/sascha245/vuex-simple
-  * Vuex-Class https://github.com/ktsn/vuex-class
+  * Vuex-Simple (https://github.com/sascha245/vuex-simple)
+  * Vuex-Class (https://github.com/ktsn/vuex-class)
 * TSX with render function (https://github.com/wonderful-panda/vue-tsx-support)
 * Vue Property Decorator (https://github.com/kaorun343/vue-property-decorator)
 * CSS module (CSS in separate files)
