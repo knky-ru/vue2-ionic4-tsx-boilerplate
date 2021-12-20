@@ -1,11 +1,11 @@
 <template>
-    <div class="ion-page">
+    <div class='ion-page'>
         <ion-header>
-            <ion-toolbar color="primary">
-                <ion-buttons slot="start">
+            <ion-toolbar color='primary'>
+                <ion-buttons slot='start'>
                     <ion-back-button color='light' default-href='/'></ion-back-button>
+                    <ion-title color='light'>About</ion-title>
                 </ion-buttons>
-                <ion-title color='light'>About</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content padding>
@@ -21,8 +21,8 @@
             </ion-card>
         </ion-content>
         <ion-footer>
-            <ion-toolbar color="primary">
-                Bottom
+            <ion-toolbar color='primary'>
+                <ion-title color='light'>Footer</ion-title>
             </ion-toolbar>
         </ion-footer>
     </div>

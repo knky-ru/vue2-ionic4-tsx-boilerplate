@@ -30,7 +30,7 @@ export default class Home extends VueTsComponent<Props> {
 					</ion-toolbar>
 				</ion-header>
 
-				<ion-content padding>
+				<ion-content>
 					<HelloWorld
 						msg={this.text}
 					/>
@@ -38,6 +38,13 @@ export default class Home extends VueTsComponent<Props> {
 
 				<ion-footer>
 					<ion-toolbar class='ion-text-center' color='primary'>
+						<ion-footer>
+							<ion-toolbar color='primary'>
+								<a href='https://github.com/knky-ru/vue2-ionic4-tsx-boilerplate' target='_blank'>
+									<ion-title color='light'>GitHub / KnKy-ru</ion-title>
+								</a>
+							</ion-toolbar>
+						</ion-footer>
 					</ion-toolbar>
 				</ion-footer>
 			</div>

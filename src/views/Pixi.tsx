@@ -1,3 +1,5 @@
+import styles from './Pixi.css?module';
+
 import {VueTsComponent, Component, Watch, Emit} from '@/types/vue-ts-component';
 import {VNode} from 'vue';
 
@@ -27,13 +29,11 @@ export default class Pixi extends VueTsComponent<Props> {
 		return (
 			<div class='ion-page'>
 				<ion-header>
-					<ion-toolbar color='primary'>
+					<ion-toolbar class={styles.toolbar} color='primary'>
 						<ion-buttons slot='start'>
-							<ion-back-button color='light' default-href='/'></ion-back-button>
+							<ion-back-button color='light' default-href='/' />
+							<ion-title color='light'>PixiJS and PixiSound</ion-title>
 						</ion-buttons>
-						<ion-title color='light'>
-							PixiJS {this.delta}
-						</ion-title>
 					</ion-toolbar>
 				</ion-header>
 
@@ -42,7 +42,8 @@ export default class Pixi extends VueTsComponent<Props> {
 				</ion-content>
 
 				<ion-footer>
-					<ion-toolbar class='ion-text-center' color='primary'>
+					<ion-toolbar color='primary'>
+						<ion-title color='light'>Footer</ion-title>
 					</ion-toolbar>
 				</ion-footer>
 			</div>

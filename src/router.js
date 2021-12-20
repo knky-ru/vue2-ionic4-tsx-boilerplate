@@ -16,5 +16,10 @@ export default new IonicVueRouter({
             name: 'about',
             component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
         },
+        {
+            path: '/pixi',
+            name: 'pixi',
+            component: () => import(/* webpackChunkName: "about" */ './views/Pixi.tsx'),
+        },
     ],
 });

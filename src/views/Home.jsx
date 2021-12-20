@@ -13,25 +13,22 @@ let Home = class Home extends VueTsComponent {
         return (<div class='ion-page'>
 				<ion-header>
 					<ion-toolbar color='primary'>
-						<ion-buttons slot='start'>
-							<ion-back-button></ion-back-button>
-						</ion-buttons>
 						<ion-title color='light'>Home</ion-title>
 					</ion-toolbar>
-
-					<ion-content padding>
-						<hello-world msg={'Hello'}/>
-					</ion-content>
-
 				</ion-header>
+
+				<ion-content padding>
+					<HelloWorld msg={this.text}/>
+				</ion-content>
+
+				<ion-footer>
+					<ion-toolbar class='ion-text-center' color='primary'>
+					</ion-toolbar>
+				</ion-footer>
 			</div>);
     }
 };
 Home = __decorate([
-    Component({
-        components: {
-            HelloWorld
-        }
-    })
+    Component
 ], Home);
 export default Home;

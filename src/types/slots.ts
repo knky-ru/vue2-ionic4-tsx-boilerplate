@@ -16,5 +16,4 @@ export function createColumnScopeSlot<RowType>() {
 	return (render: ColumnRenderer<RowType>): SlotResult<RowType> => ({
 		default: (props) => render(props.row),
 	});
-
 }
